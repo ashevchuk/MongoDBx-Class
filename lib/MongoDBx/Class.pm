@@ -47,6 +47,10 @@ coerce 'ArrayOfMongoDBx::Class::CoercedReference'
 
 MongoDBx::Class - Flexible ORM for MongoDB databases
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 SYNOPSIS
 
 Normal usage:

@@ -12,6 +12,10 @@ use namespace::autoclean;
 
 MongoDBx::Class::EmbeddedDocument - A MongoDBx::Class embedded (sub-)document role
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 SYNOPSIS
 
 	# create an embedded document class

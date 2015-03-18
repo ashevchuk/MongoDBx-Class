@@ -16,6 +16,10 @@ requires 'collapse';
 
 MongoDBx::Class::ParsedAttribute - A Moose role for automatically expanded and collapsed document attributes.
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 SYNOPSIS
 
 	# in MyApp/ParsedAttribute/URI.pm

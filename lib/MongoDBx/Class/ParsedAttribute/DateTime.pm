@@ -15,6 +15,10 @@ with 'MongoDBx::Class::ParsedAttribute';
 
 MongoDBx::Class::ParsedAttribute::DateTime - An automatic DateTime parser for MongoDBx::Class document classes
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 SYNOPSIS
 
 	# in one of your document classes

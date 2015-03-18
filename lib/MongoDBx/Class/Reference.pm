@@ -13,6 +13,10 @@ use Carp;
 
 MongoDBx::Class::Reference - An embedded document representing a reference to a different document (thus establishing a relationship)
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 CONSUMES
 
 L<MongoDBx::Class::EmbeddedDocument>

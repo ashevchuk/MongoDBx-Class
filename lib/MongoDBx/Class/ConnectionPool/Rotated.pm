@@ -16,6 +16,10 @@ with 'MongoDBx::Class::ConnectionPool';
 
 MongoDBx::Class::ConnectionPool::Rotated - A simple connection pool with rotated connections
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 SYNOPSIS
 
 	# create a MongoDBx::Class object normally:

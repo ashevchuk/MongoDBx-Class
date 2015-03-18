@@ -16,6 +16,10 @@ extends 'MongoDB::Collection';
 
 MongoDBx::Class::Collection - A MongoDBx::Class collection object
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 EXTENDS
 
 L<MongoDB::Collection>
@@ -93,12 +97,16 @@ override 'find' => sub {
 		$q = $query ? $query : {};
 	}
 
+	$q = Tie::IxHash->new(%{$q}) if ref $q eq 'HASH';
+	$q = Tie::IxHash->new(@{$q}) if ref $q eq 'ARRAY';
+
 	my $conn_key = version->parse($MongoDB::VERSION) < v0.502.0 ? '_connection' : '_client';
 
 	my $cursor = MongoDBx::Class::Cursor->new(
 		$conn_key => $self->_database->_connection,
 		_ns => $self->full_name, 
-		_query => $q, 
+		_master => $self->_database->_connection,
+		_query => $q,
 		_limit => $limit, 
 		_skip => $skip
 	);

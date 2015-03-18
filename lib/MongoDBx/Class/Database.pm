@@ -15,6 +15,10 @@ extends 'MongoDB::Database';
 
 MongoDBx::Class::Database - A MongoDBx::Class database object
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 EXTENDS
 
 L<MongoDB::Database>

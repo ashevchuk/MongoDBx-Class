@@ -12,6 +12,10 @@ use Moose::Exporter;
 
 MongoDBx::Class::Moose - Extends Moose with common relationships for MongoDBx::Class documents
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 PROVIDES
 
 L<Moose>

@@ -15,6 +15,10 @@ with 'MongoDBx::Class::ConnectionPool';
 
 MongoDBx::Class::ConnectionPool::Backup - A simple connection pool with a backup connection
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 SYNOPSIS
 
 	# create a MongoDBx::Class object normally:

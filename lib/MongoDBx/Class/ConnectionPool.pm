@@ -13,6 +13,10 @@ use Carp;
 
 MongoDBx::Class::ConnectionPool - A simple connection pool for MongoDBx::Class
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 SYNOPSIS
 
 	# create a MongoDBx::Class object normally:

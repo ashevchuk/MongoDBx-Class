@@ -13,6 +13,10 @@ use Carp;
 
 MongoDBx::Class::Document - A MongoDBx::Class document role
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 SYNOPSIS
 
 	# create a document class

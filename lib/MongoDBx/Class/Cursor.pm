@@ -11,9 +11,15 @@ use version;
 
 extends 'MongoDB::Cursor';
 
+#has '_master' => (is => 'ro', isa => 'MongoDBx::Class::Connection', required => 0);
+#has '_query' => (is => 'ro', isa => 'Tie::IxHash', required => 0);
 =head1 NAME
 
 MongoDBx::Class::Cursor - A MongoDBx::Class cursor/iterator object for query results
+
+=head1 VERSION
+
+version 1.030002
 
 =head1 EXTENDS
 

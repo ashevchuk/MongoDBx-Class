@@ -9,6 +9,10 @@ $VERSION = eval $VERSION;
 
 MongoDBx::Class::Meta::AttributeTraits - Attribute traits provided by MongoDBx::Class
 
+=head1 VERSION
+
+version 1.030002
+
 =cut
 
 package MongoDBx::Class::Meta::AttributeTraits::Parsed;

@@ -20,6 +20,10 @@ if (version->parse($MongoDB::VERSION) < v0.502.0) {
 
 MongoDBx::Class::Connection - A connection to a MongoDB server
 
+=head1 VERSION
+
+version 1.030002
+
 =head1 EXTENDS
 
 L<MongoDB::Connection>
