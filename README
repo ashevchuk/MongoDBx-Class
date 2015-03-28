@@ -1,5 +1,6 @@
 NAME
     MongoDBx::Class - Flexible ORM for MongoDB databases
+    Added MongoDB-v0.708.0.0 support
 
 SYNOPSIS
     Normal usage:
